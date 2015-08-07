@@ -1,0 +1,29 @@
+{
+"name": "divitoLog",
+"version": "0.0.1",
+"description": "This package performs adhoc logging",
+"main": "./lib/index.js",
+"repository": {
+"type": "git",
+"url": "https://github.com/divitoDBA/divitoLOG"
+},
+"keywords": [
+"divitoLOG"
+],
+"author": {
+"name": "Daniel Vukasovich"
+},
+"readme": "# Performs adhoc login style.",
+"readmeFilename": "README.md",
+"dependencies": {},
+"devDependencies": {},
+"optionalDependencies": {},
+"engines": {
+"node": "*"
+},
+"bugs": {
+"url": "https://github.com/divitoDBA/divitoLOG/issues"
+},
+"homepage": "https://github.com/divitoDBA/divitoLOG",
+"_id": "divitoLOG@0.0.1"
+}
