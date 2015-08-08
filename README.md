@@ -1,0 +1,4 @@
+divitoLOG
+
+AdHoc Logging Package
+
