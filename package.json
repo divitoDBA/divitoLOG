@@ -1,29 +1,35 @@
 {
-"name": "divitolog",
-"version": "0.0.2",
-"description": "This package performs adhoc logging",
-"main": "./lib/index.js",
-"repository": {
-"type": "git",
-"url": "https://github.com/divitoDBA/divitoLOG"
-},
-"keywords": [
-"divitoLOG"
-],
-"author": {
-"name": "Daniel Vukasovich"
-},
-"readme": "# Performs adhoc login style.",
-"readmeFilename": "README.md",
-"dependencies": {},
-"devDependencies": {},
-"optionalDependencies": {},
-"engines": {
-"node": "*"
-},
-"bugs": {
-"url": "https://github.com/divitoDBA/divitoLOG/issues"
-},
-"homepage": "https://github.com/divitoDBA/divitoLOG",
-"_id": "divitoLOG@0.0.2"
+  "name": "divitolog",
+  "version": "0.0.3",
+  "description": "This package performs adhoc logging",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divitoDBA/divitoLOG"
+  },
+  "keywords": [
+    "divitoLOG"
+  ],
+  "author": {
+    "name": "Daniel Vukasovich"
+  },
+  "readme": "# Performs adhoc login style.",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": { 
+               "test": "node_modules/.bin/mocha test/test.js"
+             },
+  "bugs": {
+    "url": "https://github.com/divitoDBA/divitoLOG/issues"
+  },
+  "homepage": "https://github.com/divitoDBA/divitoLOG",
+  "_id": "divitoLOG@0.0.3"
 }
