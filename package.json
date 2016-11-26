@@ -1,6 +1,6 @@
 {
   "name": "divitolog",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This package performs adhoc logging",
   "main": "./lib/index.js",
   "repository": {
@@ -16,17 +16,17 @@
   "readme": "# Performs adhoc login style.",
   "readmeFilename": "README.md",
   "dependencies": {
-    "chai": "^3.2.0",
-    "mocha": "^2.2.5"
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": "*"
   },
-  "scripts": { 
-               "test": "node_modules/.bin/mocha test/test.js"
-             },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/test.js"
+  },
   "bugs": {
     "url": "https://github.com/divitoDBA/divitoLOG/issues"
   },
