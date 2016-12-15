@@ -1,6 +1,6 @@
 {
   "name": "divitolog",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This package performs adhoc logging",
   "main": "./lib/index.js",
   "repository": {
@@ -19,7 +19,9 @@
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
@@ -31,5 +33,5 @@
     "url": "https://github.com/divitoDBA/divitoLOG/issues"
   },
   "homepage": "https://github.com/divitoDBA/divitoLOG",
-  "_id": "divitoLOG@0.0.4"
+  "_id": "divitoLOG@0.0.6"
 }
