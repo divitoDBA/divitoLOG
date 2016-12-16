@@ -1,6 +1,6 @@
 {
   "name": "divitolog",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "This package performs adhoc logging",
   "main": "./lib/index.js",
   "repository": {
@@ -33,5 +33,5 @@
     "url": "https://github.com/divitoDBA/divitoLOG/issues"
   },
   "homepage": "https://github.com/divitoDBA/divitoLOG",
-  "_id": "divitoLOG@0.0.6"
+  "_id": "divitoLOG@0.0.7"
 }
