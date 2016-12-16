@@ -59,7 +59,7 @@ $
 
 ### In the Browser
 
-To use the divitoLOG in the browser, simply add the following script tag to your
+To use divitoLOG in the browser, simply add the following script tag to your
 HTML pages:
 
 <script src="./lib/index.js"></script>
