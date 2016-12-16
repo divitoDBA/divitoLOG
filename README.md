@@ -68,20 +68,17 @@ The basic syntax is as follows:
 
 __test.html__
 
-<html>
-
-<head>
-</head>
-
-<body>
-
-    <div>
-        <b id="update"> this text will be updated in 3 seconds .. </b>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
-    <script src="divitoLOG.js" type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
+    <html>
+      <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+        <script src="divitoLOG.js" type="text/javascript"></script>
+      </head>
+      <body>
+        <div>
+            <b id="update"> this text will be updated in 3 seconds .. </b>
+        </div>
+        <script>
+          $(document).ready(function() {
             console.log("ready!");
 
             divitoLOG.recLog('test.html', 'loading <div>', 'START');
@@ -93,11 +90,10 @@ __test.html__
 
             setTimeout(updateText, 3000);
 
-        });
-    </script>
-</body>
-
-</html>
+          });
+        </script>
+      </body>
+    </html>
 
 ## License
 
