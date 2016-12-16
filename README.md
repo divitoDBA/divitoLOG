@@ -64,7 +64,7 @@ HTML pages:
 
 ```
 
-    <script src="./lib/index.js"></script>
+    <script src="./lib/divitoLOG.js"></script>
 
 ```
 
