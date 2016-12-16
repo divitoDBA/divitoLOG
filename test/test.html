@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+    <script src="divitoLOG.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div>
+        <b id="update"> this text will be updated in 3 seconds .. </b>
+    </div>
+    <script>
+        $(document).ready(function() {
+            console.log("ready!");
+
+            divitoLOG.recLog('test.html', 'loading <div>', 'START');
+
+            function updateText() {
+                $('#update').text('text updated !');
+                divitoLOG.recLog('test.html', 'loading <div>', 'END');
+            }
+
+            setTimeout(updateText, 3000);
+
+        });
+    </script>
+</body>
+
+</html>
