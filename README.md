@@ -62,7 +62,8 @@ $
 To use divitoLOG in the browser, simply add the following script tag to your
 HTML pages:
 
-<script src="./lib/index.js"></script>
+```
+    <script src="./lib/index.js"></script>
 
 The basic syntax is as follows:
 
